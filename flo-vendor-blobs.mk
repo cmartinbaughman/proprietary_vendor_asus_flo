@@ -55,9 +55,9 @@ PRODUCT_COPY_FILES += \
     vendor/asus/flo/proprietary/lib/egl/libEGL_adreno.so:system/lib/egl/libEGL_adreno.so \
     vendor/asus/flo/proprietary/lib/egl/libGLESv1_CM_adreno.so:system/lib/egl/libGLESv1_CM_adreno.so \
     vendor/asus/flo/proprietary/lib/egl/libGLESv2_adreno.so:system/lib/egl/libGLESv2_adreno.so \
-    vendor/asus/flo/proprietary/lib/egl/libplayback_adreno.so.so:system/lib/egl/libplayback_adreno.so \
+    vendor/asus/flo/proprietary/lib/egl/libplayback_adreno.so:system/lib/egl/libplayback_adreno.so \
     vendor/asus/flo/proprietary/lib/egl/libq3dtools_adreno.so:system/lib/egl/libq3dtools_adreno.so \
-    vendor/asus/flo/proprietary/lib/hw/camera.flo.so:system/lib/hw/camera.flo.so \
+    vendor/asus/flo/proprietary/lib/hw/sensors.msm8960.so:system/lib/hw/sensors.msm8960.flo.so \
     vendor/asus/flo/proprietary/lib/hw/gps.msm8960.so:system/lib/hw/gps.msm8960.so \
     vendor/asus/flo/proprietary/lib/hw/sensors.msm8960.so:system/lib/hw/sensors.msm8960.so \
     vendor/asus/flo/proprietary/lib/libacdbdata.so:system/lib/libacdbdata.so \
@@ -66,8 +66,10 @@ PRODUCT_COPY_FILES += \
     vendor/asus/flo/proprietary/lib/libAKM.so:system/lib/libAKM.so \
     vendor/asus/flo/proprietary/lib/libaudcal.so:system/lib/libaudcal.so \
     vendor/asus/flo/proprietary/lib/libaudioalsa.so:system/lib/libaudioalsa.so \
+    vendor/asus/flo/proprietary/lib/libc2d30.so:system/lib/libc2d30.so \
+    vendor/asus/flo/proprietary/lib/libc2d30-a3xx.so:system/lib/libc2d30-a3xx.so \
     vendor/asus/flo/proprietary/lib/libC2D2.so:system/lib/libC2D2.so \
-    vendor/asus/flo/proprietary/lib/libc2d2_a3xx.so:system/lib/libc2d2_a3xx.so \
+    vendor/asus/flo/proprietary/lib/libCB.so:system/lib/libCB.so \
     vendor/asus/flo/proprietary/lib/libchromatix_ov5693_common.so:system/lib/libchromatix_ov5693_common.so \
     vendor/asus/flo/proprietary/lib/libchromatix_ov5693_default_video.so:system/lib/libchromatix_ov5693_default_video.so \
     vendor/asus/flo/proprietary/lib/libchromatix_ov5693_preview.so:system/lib/libchromatix_ov5693_preview.so \
@@ -172,7 +174,6 @@ PRODUCT_COPY_FILES += \
     vendor/asus/flo/proprietary/vendor/firmware/wcnss.b04:system/vendor/firmware/wcnss.b04 \
     vendor/asus/flo/proprietary/vendor/firmware/wcnss.b05:system/vendor/firmware/wcnss.b05 \
     vendor/asus/flo/proprietary/vendor/firmware/wcnss.mdt:system/vendor/firmware/wcnss.mdt \
-    vendor/asus/flo/proprietary/vendor/lib/drm/libdrmwvmplugin.so:system/vendor/lib/drm/libdrmwvmplugin.so \
     vendor/asus/flo/proprietary/vendor/lib/libdrmdecrypt.so:system/vendor/lib/libdrmdecrypt.so \
     vendor/asus/flo/proprietary/vendor/lib/libgemini.so:system/vendor/lib/libgemini.so \
     vendor/asus/flo/proprietary/vendor/lib/libgeofence.so:system/vendor/lib/libgeofence.so \
